@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Light Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Smart Light Control Dashboard</h1>
+  <p>Simulated prototype for Azure IoT light management system.</p>
+
+  <div class="room" id="room1">
+    <h2>Room 1</h2>
+    <button onclick="toggleLight('room1')">Toggle Light</button>
+    <p>Status: <span id="status-room1">OFF</span></p>
+  </div>
+
+  <div class="room" id="room2">
+    <h2>Room 2</h2>
+    <button onclick="toggleLight('room2')">Toggle Light</button>
+    <p>Status: <span id="status-room2">OFF</span></p>
+  </div>
+
+  <div class="room" id="room3">
+    <h2>Conference Hall</h2>
+    <button onclick="toggleLight('room3')">Toggle Light</button>
+    <p>Status: <span id="status-room3">OFF</span></p>
+  </div>
+
+  <br>
+  <a href="about.html">About the System</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
